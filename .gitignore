@@ -1,0 +1,10 @@
+# Ambiente Virtual
+venv/
+.venv/
+
+# Pasta de Áudios
+frasesAudios/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
