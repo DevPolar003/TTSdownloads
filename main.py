@@ -1,31 +1,36 @@
 import os
 from gtts import gTTS
+import keyboard
 
-arquivo = open('frases.txt', 'r')
-contador = 1
 frases = []
 nomePasta = "frasesAudios"
 
 if not os.path.exists(nomePasta):
-  os.makedirs(nomePasta)
-  print(f"Pasta {nomePasta} criada com sucesso!") 
+    os.makedirs(nomePasta)
+    print(f"Directory {nomePasta} created with success") 
+  
+try:   
+    with open('frases.txt', 'r', encoding='utf-8') as arquivo:  
+        for i, linha in enumerate(arquivo, 1):
+            linha = linha.strip()
+            if linha:
+                frases.append(linha)
 
-for linha in arquivo:
-    linha = linha.strip()
-    if linha:
-       print(contador, linha) 
-       frases.append(linha)
-       contador += 1
-    
+    print("Processing of all phrases is starting...")
 
-frasesFormatadas = []
+    for frase in frases:
+        nomeArquivo = frase.replace("?", "").replace("!", "").replace(" ", "_")
+        caminhoCompleto = os.path.join(nomePasta, nomeArquivo + ".mp3")
 
-for frase in frases:
-    nomeArquivo = frase.replace("?", "").replace(" ", "_")
-    frasesFormatadas.append(nomeArquivo)
-    caminhoCompleto = os.path.join(nomePasta, nomeArquivo + ".mp3")
-    audio = gTTS(text=frase, lang='fr')
-    audio.save(caminhoCompleto)
+        audio = gTTS(text=frase, lang='fr')
+        audio.save(caminhoCompleto)
+        print(f"Saved: {nomeArquivo}")
 
-arquivo.close()
-
+except FileNotFoundError:
+    print("Error: file frases.txt not found")
+except Exception as e:
+    print(f"Something went wrong: {e}")
+else:
+    print("All the downloads are finished in the directory: " + nomePasta)   
+finally: 
+  input("\nProcess finished. Press Enter to exit...")

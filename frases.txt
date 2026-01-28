@@ -1,11 +1,85 @@
+la maison
+La maison est belle.
+cette maison
+Cette maison est belle.
+la voiture
+La voiture est rouge.
+cette voiture
+Cette voiture est rouge.
+la fille
+La fille est belle.
+la télé
+La télé est cassée.
+le livre
+Le livre est intéressant.
+ce livre
+Ce livre est intéressant.
+le garçon
+Le garçon est cool.
+le téléphone
+Le téléphone est bon.
+Mon téléphone est nul.
+le chien
+Le chien est désordonné.
+Le chien de la fille est dans la maison.
+l’orange
+L’orange est sur la table.
+le livre sur la table
+Le livre est sur la table.
+je suis
+tu es
+il est
+elle est
+j’ai
+J’ai une bouteille bleue.
+tu as
+Tu as le téléphone de Marc.
+il a
+elle a
+J'aime jouer aux échecs.
 Maintenant, je vais étudier le français.
 Excuse-moi.
-Vous avez du Wi-Fi?
+Vous avez du Wi-Fi ?
 Je ne comprends pas.
-vous parlez anglais?
-Oui,je parle anglais.
-Vous pouvez répéter, s'il vous plaît?
-tu viens d'où?
+Vous parlez anglais ?
+Oui, je parle anglais.
+Vous pouvez répéter, s'il vous plaît ?
+Tu viens d'où ?
 Je suis fatigué.
 J'aime beaucoup les langues.
-Je suis amoureux en echecs.
+Je suis amoureux des échecs.
+Je suis en train d'écrire.
+Je suis en train d'étudier.
+Je ne parle pas français.
+Je vais au laboratoire pour étudier le français.
+Je crois que…
+Je pense que tu es très belle.
+C’est sympa.
+Tu veux faire quoi ?
+Pourquoi pas ?
+Es-tu occupé ?
+Je suis occupé.
+Je suis très occupé.
+Oui
+Non
+Peut-être
+Je ne sais pas.
+Je ne sais pas exatamente.
+Je ne sais pas comment faire.
+Je ne sais pas comment prononcer.
+S'il vous plaît
+S'il te plaît
+Merci
+De rien
+Salut
+Bonjour
+Au revoir
+Pardon
+D'accord
+Avec toi
+Tu fais quoi ?
+Je suis en train de coder.
+Ma maison est belle.
+Mon ordinateur est cassé.
+Mon téléphone est cassé.
+Mon chien est beau.
